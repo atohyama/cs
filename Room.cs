@@ -22,8 +22,6 @@ public class Room {
     }
   }
 
-
-
   public void setArrowPos(int index, float pos_x, float pos_y, float pos_z) {
     this.arrows[index].pos_x = pos_x;
     this.arrows[index].pos_y = pos_y;
@@ -36,9 +34,12 @@ public class Room {
     this.arrows[index].rot_z = rot_z;
   }
 
+  public void setArrow
+
   // public string getArrText() {
   //   return this.arr_text[0];
   // }
+  // a
 }
 
 public class RoomTest {
